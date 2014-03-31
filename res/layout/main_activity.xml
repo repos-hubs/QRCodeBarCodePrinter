@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff999999" >
+	    
+	    <Button
+	        android:id="@+id/printButton1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:padding="10dp"
+	        android:background="@drawable/btn_go"
+	        android:gravity="center"
+	        android:text="@string/print1"
+	        android:layout_marginLeft="5dp"
+	        android:textColor="@android:color/black"
+	        android:textSize="@dimen/go_text_size" />
+	    
+	    <Button
+	        android:id="@+id/printButton2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/printButton1"
+	        android:layout_marginTop="10dp"
+	        android:padding="10dp"
+	        android:background="@drawable/btn_go"
+	        android:gravity="center"
+	        android:text="@string/print2"
+	        android:layout_marginLeft="5dp"
+	        android:textColor="@android:color/black"
+	        android:textSize="@dimen/go_text_size" />
+    
+
+</RelativeLayout>
